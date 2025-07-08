@@ -1,3 +1,7 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -9,6 +13,9 @@
 /* Shared Style */
 .text-primary{
     color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
 }
 .dark-2{
     color: #474747;
@@ -26,6 +33,10 @@
     border-radius: 5px;
     
 }
+.bg-color{
+   background-color: #FFF8F3; 
+}
+
 
 /* header */
 .header{
@@ -85,4 +96,32 @@ nav li a{
 .banner-profile-picture{
     width: 584px;
     height: 676px;
+}
+
+/* main styles */
+.main-t{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Section */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.section-description{
+    font-size: 18px;
+}
+.pr-infos{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
 }
