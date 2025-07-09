@@ -3,27 +3,31 @@
     padding: 0%;
 } */
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* Shared Style */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.dark-1{
+
+.dark-1 {
     color: #181818;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.dark-3{
+
+.dark-3 {
     color: #757575;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -31,18 +35,20 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
-    
+
 }
-.bg-color{
-   background-color: #FFF8F3; 
+
+.bg-color {
+    background-color: #FFF8F3;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
 
 /* header */
-.header{
+.header {
     background-image: url('images/developer.png'), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -50,96 +56,109 @@
 
 /* Nav styles */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
 
-.nav-titile{
+.nav-titile {
     font-weight: 800px;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 51px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
 
 /* banner Styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
     height: 356px;
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: bold;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
 }
-.banner-profile-picture{
+
+.banner-profile-picture {
     width: 584px;
     height: 676px;
 }
 
 /* main styles */
-.main-t{
+.main-t {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /* About Section */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    
+
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: bold;
 
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
 }
-.pr-infos{
+
+.pr-infos {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: bold;
 }
 
 /* skills style section */
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     padding: 30px;
     border-radius: 5px;
     margin-top: 130px;
@@ -147,33 +166,63 @@ main section{
 }
 
 /* Rasume Style Section */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     text-align: center;
     margin-bottom: 113px;
 }
-.column-title{
+
+.column-title {
     font-size: 30px;
     margin-bottom: 30px;
 }
-.education-title, .experience-title{
+
+.education-title,
+.experience-title {
     font-size: 25px;
     margin-bottom: 5px;
 }
-.experience-subtitle, .education-subtitle{
+
+.experience-subtitle,
+.education-subtitle {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.education-description, .experience-description{
+
+.education-description,
+.experience-description {
     font-size: 16px;
     margin-bottom: 30px;
 }
-.cv-btn{
+
+.cv-btn {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+/* Footer Style Section */
+.footer-container {
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+
+footer input[type="text"],
+footer input[type="Email"],
+footer textarea {
+    height: 64px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
